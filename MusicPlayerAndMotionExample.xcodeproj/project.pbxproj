@@ -15,6 +15,10 @@
 		DEB159D626E11817003FC5C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB159D426E11817003FC5C1 /* LaunchScreen.storyboard */; };
 		DEB159E126E11817003FC5C1 /* MusicPlayerAndMotionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159E026E11817003FC5C1 /* MusicPlayerAndMotionExampleTests.swift */; };
 		DEB159EC26E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159EB26E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.swift */; };
+		DEE9C72226ECA2EE00190505 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE9C72026ECA2EE00190505 /* GlobalTabBarController.storyboard */; };
+		DEE9C72626ECA36E00190505 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9C72526ECA36E00190505 /* GlobalTabBarController.swift */; };
+		DEE9C72826ECA3BE00190505 /* PhotoArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9C72726ECA3BE00190505 /* PhotoArchiveViewController.swift */; };
+		DEE9C72B26ECA3D900190505 /* PhotoArchiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE9C72926ECA3D900190505 /* PhotoArchiveViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		DEB159E726E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerAndMotionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB159EB26E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerAndMotionExampleUITests.swift; sourceTree = "<group>"; };
 		DEB159ED26E11817003FC5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE9C72126ECA2EE00190505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GlobalTabBarController.storyboard; sourceTree = "<group>"; };
+		DEE9C72526ECA36E00190505 /* GlobalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarController.swift; sourceTree = "<group>"; };
+		DEE9C72726ECA3BE00190505 /* PhotoArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoArchiveViewController.swift; sourceTree = "<group>"; };
+		DEE9C72A26ECA3D900190505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PhotoArchiveViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				DEB159CD26E11816003FC5C1 /* MainViewController.swift */,
+				DEE9C72526ECA36E00190505 /* GlobalTabBarController.swift */,
+				DEE9C72726ECA3BE00190505 /* PhotoArchiveViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -188,6 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				DEB159CF26E11816003FC5C1 /* MainViewController.storyboard */,
+				DEE9C72026ECA2EE00190505 /* GlobalTabBarController.storyboard */,
+				DEE9C72926ECA3D900190505 /* PhotoArchiveViewController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -298,6 +310,8 @@
 				DEB159D626E11817003FC5C1 /* LaunchScreen.storyboard in Resources */,
 				DEB159D326E11817003FC5C1 /* Assets.xcassets in Resources */,
 				DEB159D126E11816003FC5C1 /* MainViewController.storyboard in Resources */,
+				DEE9C72B26ECA3D900190505 /* PhotoArchiveViewController.storyboard in Resources */,
+				DEE9C72226ECA2EE00190505 /* GlobalTabBarController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE9C72826ECA3BE00190505 /* PhotoArchiveViewController.swift in Sources */,
+				DEE9C72626ECA36E00190505 /* GlobalTabBarController.swift in Sources */,
 				DEB159CE26E11816003FC5C1 /* MainViewController.swift in Sources */,
 				DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */,
 				DEB159CC26E11816003FC5C1 /* SceneDelegate.swift in Sources */,
@@ -374,6 +390,22 @@
 				DEB159D526E11817003FC5C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE9C72026ECA2EE00190505 /* GlobalTabBarController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE9C72126ECA2EE00190505 /* Base */,
+			);
+			name = GlobalTabBarController.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE9C72926ECA3D900190505 /* PhotoArchiveViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE9C72A26ECA3D900190505 /* Base */,
+			);
+			name = PhotoArchiveViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
