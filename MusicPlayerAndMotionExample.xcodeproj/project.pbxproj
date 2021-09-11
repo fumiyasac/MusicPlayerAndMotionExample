@@ -21,6 +21,7 @@
 		DEDED5D426ECABD100BAAB4E /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5D326ECABD100BAAB4E /* UICollectionViewExtension.swift */; };
 		DEDED5D626ECAC1D00BAAB4E /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5D526ECAC1D00BAAB4E /* UITableViewExtension.swift */; };
 		DEDED5D826ECAC4600BAAB4E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5D726ECAC4600BAAB4E /* UIViewControllerExtension.swift */; };
+		DEDED5DA26ECAC8100BAAB4E /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5D926ECAC8100BAAB4E /* CustomViewBase.swift */; };
 		DEE9C72226ECA2EE00190505 /* GlobalTabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE9C72026ECA2EE00190505 /* GlobalTabBarController.storyboard */; };
 		DEE9C72626ECA36E00190505 /* GlobalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9C72526ECA36E00190505 /* GlobalTabBarController.swift */; };
 		DEE9C72826ECA3BE00190505 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE9C72726ECA3BE00190505 /* PhotoViewController.swift */; };
@@ -65,6 +66,7 @@
 		DEDED5D326ECABD100BAAB4E /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		DEDED5D526ECAC1D00BAAB4E /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		DEDED5D726ECAC4600BAAB4E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DEDED5D926ECAC8100BAAB4E /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
 		DEE9C72126ECA2EE00190505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GlobalTabBarController.storyboard; sourceTree = "<group>"; };
 		DEE9C72526ECA36E00190505 /* GlobalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarController.swift; sourceTree = "<group>"; };
 		DEE9C72726ECA3BE00190505 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		DECACF0626E7B139007459C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEDED5D926ECAC8100BAAB4E /* CustomViewBase.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				DEDED5D626ECAC1D00BAAB4E /* UITableViewExtension.swift in Sources */,
 				DEDED5D026ECAB8200BAAB4E /* NSObjectProtocolExtension.swift in Sources */,
 				DEE9C72626ECA36E00190505 /* GlobalTabBarController.swift in Sources */,
+				DEDED5DA26ECAC8100BAAB4E /* CustomViewBase.swift in Sources */,
 				DEDED5D226ECAB9800BAAB4E /* UIColorExtension.swift in Sources */,
 				DEDED5D426ECABD100BAAB4E /* UICollectionViewExtension.swift in Sources */,
 				DEB159CE26E11816003FC5C1 /* MainViewController.swift in Sources */,
