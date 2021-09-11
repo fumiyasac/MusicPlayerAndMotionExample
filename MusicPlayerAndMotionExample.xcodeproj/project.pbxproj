@@ -129,11 +129,13 @@
 				DECACF0326E7B11F007459C1 /* Enum */,
 				DECACF0726E7B148007459C1 /* Extension */,
 				DECACF0926E7B17E007459C1 /* Infrastructure */,
+				DEDED5DB26ECAD1400BAAB4E /* Modules */,
 				DECACF0826E7B175007459C1 /* Repository */,
 				DECACF0A26E7B1D0007459C1 /* Storyboard */,
 				DECACF0626E7B139007459C1 /* View */,
 				DECACF0526E7B12C007459C1 /* ViewController */,
 				DECACF0426E7B125007459C1 /* ViewModel */,
+				DEDED5DC26ECAD2000BAAB4E /* ViewObject */,
 			);
 			path = MusicPlayerAndMotionExample;
 			sourceTree = "<group>";
@@ -223,6 +225,20 @@
 				DEE9C72926ECA3D900190505 /* PhotoViewController.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DEDED5DB26ECAD1400BAAB4E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DEDED5DC26ECAD2000BAAB4E /* ViewObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
