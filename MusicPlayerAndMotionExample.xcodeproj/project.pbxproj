@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE08D5FA26F8C77B004BD289 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08D5F926F8C77B004BD289 /* MainScreenView.swift */; };
+		DE08D5FC26F8C796004BD289 /* PhotoScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08D5FB26F8C796004BD289 /* PhotoScreenView.swift */; };
 		DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159C926E11816003FC5C1 /* AppDelegate.swift */; };
 		DEB159CC26E11816003FC5C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159CB26E11816003FC5C1 /* SceneDelegate.swift */; };
 		DEB159CE26E11816003FC5C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159CD26E11816003FC5C1 /* MainViewController.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE08D5F926F8C77B004BD289 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		DE08D5FB26F8C796004BD289 /* PhotoScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoScreenView.swift; sourceTree = "<group>"; };
 		DEB159C626E11816003FC5C1 /* MusicPlayerAndMotionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerAndMotionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB159C926E11816003FC5C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB159CB26E11816003FC5C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +102,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE08D5F826F8C752004BD289 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DE08D5F926F8C77B004BD289 /* MainScreenView.swift */,
+				DE08D5FB26F8C796004BD289 /* PhotoScreenView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		DE08D5FD26F8C7A4004BD289 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DE3FBBE926F6296800D5CA9C /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DE08D5FD26F8C7A4004BD289 /* Components */,
+				DE08D5F826F8C752004BD289 /* Screen */,
+				DE3FBBEB26F62B5F00D5CA9C /* Representable */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DE3FBBEA26F629F700D5CA9C /* ViewState */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewState;
+			sourceTree = "<group>";
+		};
+		DE3FBBEB26F62B5F00D5CA9C /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
 		DEB159BD26E11816003FC5C1 = {
 			isa = PBXGroup;
 			children = (
@@ -132,10 +176,11 @@
 				DEDED5DB26ECAD1400BAAB4E /* Modules */,
 				DECACF0826E7B175007459C1 /* Repository */,
 				DECACF0A26E7B1D0007459C1 /* Storyboard */,
+				DE3FBBE926F6296800D5CA9C /* SwiftUI */,
 				DECACF0626E7B139007459C1 /* View */,
 				DECACF0526E7B12C007459C1 /* ViewController */,
 				DECACF0426E7B125007459C1 /* ViewModel */,
-				DEDED5DC26ECAD2000BAAB4E /* ViewObject */,
+				DE3FBBEA26F629F700D5CA9C /* ViewState */,
 			);
 			path = MusicPlayerAndMotionExample;
 			sourceTree = "<group>";
@@ -232,13 +277,6 @@
 			children = (
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		DEDED5DC26ECAD2000BAAB4E /* ViewObject */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +423,8 @@
 				DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */,
 				DEDED5D826ECAC4600BAAB4E /* UIViewControllerExtension.swift in Sources */,
 				DEB159CC26E11816003FC5C1 /* SceneDelegate.swift in Sources */,
+				DE08D5FA26F8C77B004BD289 /* MainScreenView.swift in Sources */,
+				DE08D5FC26F8C796004BD289 /* PhotoScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
