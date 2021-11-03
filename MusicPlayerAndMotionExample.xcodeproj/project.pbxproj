@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE09FC35273200F300B4BEB3 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC34273200F300B4BEB3 /* SwiftyUserDefaults */; };
+		DE09FC382732011900B4BEB3 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC372732011900B4BEB3 /* KeychainAccess */; };
+		DE09FC3E273203C700B4BEB3 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC3D273203C700B4BEB3 /* GRDB */; };
+		DE09FC412732045400B4BEB3 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC402732045400B4BEB3 /* Nuke */; };
+		DE09FC442732049500B4BEB3 /* UICircularProgressRing in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC432732049500B4BEB3 /* UICircularProgressRing */; };
+		DE09FC4A27320C9200B4BEB3 /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC4927320C9200B4BEB3 /* BLTNBoard */; };
+		DE09FC4E27320F2D00B4BEB3 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC4D27320F2D00B4BEB3 /* Hero */; };
+		DE09FC5127320F5200B4BEB3 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC5027320F5200B4BEB3 /* SkeletonView */; };
 		DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159C926E11816003FC5C1 /* AppDelegate.swift */; };
 		DEB159CC26E11816003FC5C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159CB26E11816003FC5C1 /* SceneDelegate.swift */; };
 		DEB159CE26E11816003FC5C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159CD26E11816003FC5C1 /* MainViewController.swift */; };
@@ -78,6 +86,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE09FC4A27320C9200B4BEB3 /* BLTNBoard in Frameworks */,
+				DE09FC382732011900B4BEB3 /* KeychainAccess in Frameworks */,
+				DE09FC35273200F300B4BEB3 /* SwiftyUserDefaults in Frameworks */,
+				DE09FC3E273203C700B4BEB3 /* GRDB in Frameworks */,
+				DE09FC5127320F5200B4BEB3 /* SkeletonView in Frameworks */,
+				DE09FC442732049500B4BEB3 /* UICircularProgressRing in Frameworks */,
+				DE09FC4E27320F2D00B4BEB3 /* Hero in Frameworks */,
+				DE09FC412732045400B4BEB3 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +297,16 @@
 			dependencies = (
 			);
 			name = MusicPlayerAndMotionExample;
+			packageProductDependencies = (
+				DE09FC34273200F300B4BEB3 /* SwiftyUserDefaults */,
+				DE09FC372732011900B4BEB3 /* KeychainAccess */,
+				DE09FC3D273203C700B4BEB3 /* GRDB */,
+				DE09FC402732045400B4BEB3 /* Nuke */,
+				DE09FC432732049500B4BEB3 /* UICircularProgressRing */,
+				DE09FC4927320C9200B4BEB3 /* BLTNBoard */,
+				DE09FC4D27320F2D00B4BEB3 /* Hero */,
+				DE09FC5027320F5200B4BEB3 /* SkeletonView */,
+			);
 			productName = MusicPlayerAndMotionExample;
 			productReference = DEB159C626E11816003FC5C1 /* MusicPlayerAndMotionExample.app */;
 			productType = "com.apple.product-type.application";
@@ -352,6 +378,16 @@
 				Base,
 			);
 			mainGroup = DEB159BD26E11816003FC5C1;
+			packageReferences = (
+				DE09FC33273200F300B4BEB3 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+				DE09FC362732011900B4BEB3 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				DE09FC3C273203C700B4BEB3 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				DE09FC3F2732045400B4BEB3 /* XCRemoteSwiftPackageReference "Nuke" */,
+				DE09FC422732049500B4BEB3 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
+				DE09FC4827320C9200B4BEB3 /* XCRemoteSwiftPackageReference "BulletinBoard" */,
+				DE09FC4C27320F2D00B4BEB3 /* XCRemoteSwiftPackageReference "Hero" */,
+				DE09FC4F27320F5200B4BEB3 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = DEB159C726E11816003FC5C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -757,6 +793,116 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE09FC33273200F300B4BEB3 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunshinejr/SwiftyUserDefaults";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DE09FC362732011900B4BEB3 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		DE09FC3C273203C700B4BEB3 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DE09FC3F2732045400B4BEB3 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		DE09FC422732049500B4BEB3 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/luispadron/UICircularProgressRing.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		DE09FC4827320C9200B4BEB3 /* XCRemoteSwiftPackageReference "BulletinBoard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexisakers/BulletinBoard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DE09FC4C27320F2D00B4BEB3 /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		DE09FC4F27320F5200B4BEB3 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE09FC34273200F300B4BEB3 /* SwiftyUserDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC33273200F300B4BEB3 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
+			productName = SwiftyUserDefaults;
+		};
+		DE09FC372732011900B4BEB3 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC362732011900B4BEB3 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		DE09FC3D273203C700B4BEB3 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC3C273203C700B4BEB3 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		DE09FC402732045400B4BEB3 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC3F2732045400B4BEB3 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		DE09FC432732049500B4BEB3 /* UICircularProgressRing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC422732049500B4BEB3 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
+			productName = UICircularProgressRing;
+		};
+		DE09FC4927320C9200B4BEB3 /* BLTNBoard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC4827320C9200B4BEB3 /* XCRemoteSwiftPackageReference "BulletinBoard" */;
+			productName = BLTNBoard;
+		};
+		DE09FC4D27320F2D00B4BEB3 /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC4C27320F2D00B4BEB3 /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		DE09FC5027320F5200B4BEB3 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE09FC4F27320F5200B4BEB3 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEB159BE26E11816003FC5C1 /* Project object */;
 }
