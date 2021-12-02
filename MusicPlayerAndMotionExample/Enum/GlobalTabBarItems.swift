@@ -15,9 +15,9 @@ enum GlobalTabBarItems: CaseIterable {
     func getTabBarTitle() -> String {
         switch self {
         case .main:
-            return "メイン"
+            return "メイン画面"
         case .photo:
-            return "フォト"
+            return "フォト画面"
         }
     }
 
@@ -31,4 +31,3 @@ enum GlobalTabBarItems: CaseIterable {
         }
     }
 }
-

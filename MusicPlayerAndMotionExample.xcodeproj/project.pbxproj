@@ -23,6 +23,7 @@
 		DEB159D626E11817003FC5C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB159D426E11817003FC5C1 /* LaunchScreen.storyboard */; };
 		DEB159E126E11817003FC5C1 /* MusicPlayerAndMotionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159E026E11817003FC5C1 /* MusicPlayerAndMotionExampleTests.swift */; };
 		DEB159EC26E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159EB26E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.swift */; };
+		DEB87EC8275907CD0085227C /* UILabelDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB87EC7275907CD0085227C /* UILabelDecorator.swift */; };
 		DEDED5CE26ECA95100BAAB4E /* GlobalTabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5CD26ECA95100BAAB4E /* GlobalTabBarItems.swift */; };
 		DEDED5D026ECAB8200BAAB4E /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5CF26ECAB8200BAAB4E /* NSObjectProtocolExtension.swift */; };
 		DEDED5D226ECAB9800BAAB4E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDED5D126ECAB9800BAAB4E /* UIColorExtension.swift */; };
@@ -68,6 +69,7 @@
 		DEB159E726E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerAndMotionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB159EB26E11817003FC5C1 /* MusicPlayerAndMotionExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerAndMotionExampleUITests.swift; sourceTree = "<group>"; };
 		DEB159ED26E11817003FC5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB87EC7275907CD0085227C /* UILabelDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelDecorator.swift; sourceTree = "<group>"; };
 		DEDED5CD26ECA95100BAAB4E /* GlobalTabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBarItems.swift; sourceTree = "<group>"; };
 		DEDED5CF26ECAB8200BAAB4E /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
 		DEDED5D126ECAB9800BAAB4E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 		DEDED5DB26ECAD1400BAAB4E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				DEB87EC7275907CD0085227C /* UILabelDecorator.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				DEDED5CE26ECA95100BAAB4E /* GlobalTabBarItems.swift in Sources */,
 				DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */,
 				DEDED5D826ECAC4600BAAB4E /* UIViewControllerExtension.swift in Sources */,
+				DEB87EC8275907CD0085227C /* UILabelDecorator.swift in Sources */,
 				DEB159CC26E11816003FC5C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
