@@ -15,6 +15,8 @@
 		DE09FC4A27320C9200B4BEB3 /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC4927320C9200B4BEB3 /* BLTNBoard */; };
 		DE09FC4E27320F2D00B4BEB3 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC4D27320F2D00B4BEB3 /* Hero */; };
 		DE09FC5127320F5200B4BEB3 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = DE09FC5027320F5200B4BEB3 /* SkeletonView */; };
+		DEB0D931275D02AD002E6766 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB0D930275D02AD002E6766 /* PlayerView.swift */; };
+		DEB0D933275D02C7002E6766 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB0D932275D02C7002E6766 /* PortraitNavigationController.swift */; };
 		DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159C926E11816003FC5C1 /* AppDelegate.swift */; };
 		DEB159CC26E11816003FC5C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159CB26E11816003FC5C1 /* SceneDelegate.swift */; };
 		DEB159CE26E11816003FC5C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB159CD26E11816003FC5C1 /* MainViewController.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DEB0D930275D02AD002E6766 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		DEB0D932275D02C7002E6766 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
 		DEB159C626E11816003FC5C1 /* MusicPlayerAndMotionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerAndMotionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB159C926E11816003FC5C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB159CB26E11816003FC5C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -232,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				DEDED5D926ECAC8100BAAB4E /* CustomViewBase.swift */,
+				DEB0D930275D02AD002E6766 /* PlayerView.swift */,
+				DEB0D932275D02C7002E6766 /* PortraitNavigationController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -443,8 +449,10 @@
 				DEDED5DA26ECAC8100BAAB4E /* CustomViewBase.swift in Sources */,
 				DEDED5D226ECAB9800BAAB4E /* UIColorExtension.swift in Sources */,
 				DEDED5D426ECABD100BAAB4E /* UICollectionViewExtension.swift in Sources */,
+				DEB0D933275D02C7002E6766 /* PortraitNavigationController.swift in Sources */,
 				DEB159CE26E11816003FC5C1 /* MainViewController.swift in Sources */,
 				DEDED5CE26ECA95100BAAB4E /* GlobalTabBarItems.swift in Sources */,
+				DEB0D931275D02AD002E6766 /* PlayerView.swift in Sources */,
 				DEB159CA26E11816003FC5C1 /* AppDelegate.swift in Sources */,
 				DEDED5D826ECAC4600BAAB4E /* UIViewControllerExtension.swift in Sources */,
 				DEB87EC8275907CD0085227C /* UILabelDecorator.swift in Sources */,
